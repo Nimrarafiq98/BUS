@@ -1,1 +1,3 @@
 c:\users\muhammad zaman\documents\visual studio 2012\Projects\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.exe.config
+C:\Users\MALIK SHAHBAZ\Desktop\BUS\WindowsFormsApplication14\WindowsFormsApplication14\bin\Debug\WindowsFormsApplication14.exe.config
+C:\Users\MALIK SHAHBAZ\Desktop\BUS\WindowsFormsApplication14\WindowsFormsApplication14\obj\Debug\WindowsFormsApplication14.csprojResolveAssemblyReference.cache

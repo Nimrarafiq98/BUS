@@ -30,5 +30,27 @@ namespace WcfService1
             }
             return composite;
         }
+        public bool isvalid(string username, string password)
+        {
+            bool check = false;
+            foreach (myuser u in data.datalist)
+            {
+                if (u.Username == username && u.Password == password)
+                    check = true;
+            }
+
+
+
+
+            return check;
+        }
+        public void registration(string username, string password)
+        {
+            myuser user = new myuser();
+            user.Username = username;
+            user.Password = password;
+            data.datalist.Add(user);
+
+        }
     }
 }
