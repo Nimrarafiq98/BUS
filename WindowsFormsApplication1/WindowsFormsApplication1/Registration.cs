@@ -19,6 +19,18 @@ namespace WindowsFormsApplication1
 
         private void cmdRegistration_Click(object sender, EventArgs e)
         {
+            Server.Service1 server = new Server.Service1();
+            bool isvalid;
+            bool isvalidPassed;
+            Server.isvalid(txtUsername.Text, txtPassword.Text, out isvalid, out isvalidPassed);
+            if (isvalid)
+            {
+                MessageBox.Show("valid user!");
+            }
+            else
+            {
+                MessageBox.Show("invalid user!");
+            }
             
         }
 
