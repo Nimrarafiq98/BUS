@@ -45,6 +45,19 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="addroute">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BusNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="RouteNumber" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addrouteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
   <xs:element name="GetData">
     <xs:complexType>
       <xs:sequence>

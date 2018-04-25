@@ -27,12 +27,16 @@ namespace Routes
             {
                 MessageBox.Show("valid user!");
 
-                
+                Addnum Addnum = new Addnum();
+                this.Hide();
+                Addnum.Show();  
             }
             else
             {
                 MessageBox.Show("invalid user!");
             }
+
+            
             
         }
 

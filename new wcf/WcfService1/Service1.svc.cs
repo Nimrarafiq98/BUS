@@ -70,6 +70,13 @@ namespace WcfService1
 
             return find;
         }
+        public void addroute(string BusNumber, string RouteNumber)
+        {
+            Route route = new Route();
+            route.BusNumber1 = BusNumber;
+            route.RouteNumber1 = RouteNumber;
+            RouteDL.myRoutes.Add(route);
+        }
 
     }
 }
