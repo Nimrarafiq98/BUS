@@ -25,5 +25,14 @@ namespace WcfService1
             get { return RouteNumber; }
             set { RouteNumber = value; }
         }
+
+        private static List<Stops> mystops = new List<Stops>();
+        [DataMember]
+        public static List<Stops> Mystops
+        {
+            get { return mystops; }
+            set { mystops = value; }
+        }
+
     }
 }

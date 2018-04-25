@@ -77,6 +77,20 @@ namespace WcfService1
             route.RouteNumber1 = RouteNumber;
             RouteDL.myRoutes.Add(route);
         }
+         public void addstop(string StopName)
+        {
+            Stops c = new Stops();
+            c.StopName1 = StopName;
+
+            
+            Route.Mystops.Add(c);
+
+
+        }
+        public List<Stops> getstops()
+        {
+            return Route.Mystops;
+        }
 
     }
 }
