@@ -47,6 +47,7 @@
             this.lnkAddStops.TabIndex = 17;
             this.lnkAddStops.TabStop = true;
             this.lnkAddStops.Text = "AddStops";
+            this.lnkAddStops.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAddStops_LinkClicked);
             // 
             // cmdAddnum
             // 

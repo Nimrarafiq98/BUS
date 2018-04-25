@@ -23,5 +23,12 @@ namespace Routes
             server.addroute(txtBusNumber.Text, txtRouteNumber.Text);
             MessageBox.Show("Bus number and route number has been added");
         }
+
+        private void lnkAddStops_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Addstop Addstop = new Addstop();
+            this.Hide();
+            Addstop.Show();
+        }
     }
 }
