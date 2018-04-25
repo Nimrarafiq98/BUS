@@ -38,9 +38,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(48, 122);
+            this.dataGridView1.Location = new System.Drawing.Point(5, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(283, 321);
             this.dataGridView1.TabIndex = 7;
             // 
             // cmdAddStop
@@ -48,7 +48,7 @@
             this.cmdAddStop.BackColor = System.Drawing.Color.White;
             this.cmdAddStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdAddStop.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdAddStop.Location = new System.Drawing.Point(217, 70);
+            this.cmdAddStop.Location = new System.Drawing.Point(398, 152);
             this.cmdAddStop.Name = "cmdAddStop";
             this.cmdAddStop.Size = new System.Drawing.Size(100, 33);
             this.cmdAddStop.TabIndex = 6;
@@ -58,7 +58,7 @@
             // 
             // txtStopName
             // 
-            this.txtStopName.Location = new System.Drawing.Point(135, 12);
+            this.txtStopName.Location = new System.Drawing.Point(307, 70);
             this.txtStopName.Multiline = true;
             this.txtStopName.Name = "txtStopName";
             this.txtStopName.Size = new System.Drawing.Size(203, 41);
@@ -69,7 +69,7 @@
             this.lblStopName.AutoSize = true;
             this.lblStopName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStopName.ForeColor = System.Drawing.Color.Navy;
-            this.lblStopName.Location = new System.Drawing.Point(12, 22);
+            this.lblStopName.Location = new System.Drawing.Point(303, 23);
             this.lblStopName.Name = "lblStopName";
             this.lblStopName.Size = new System.Drawing.Size(93, 20);
             this.lblStopName.TabIndex = 4;
@@ -79,7 +79,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 284);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(521, 336);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cmdAddStop);
             this.Controls.Add(this.txtStopName);
