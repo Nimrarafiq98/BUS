@@ -28,33 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lnkAddStops = new System.Windows.Forms.LinkLabel();
             this.cmdAddnum = new System.Windows.Forms.Button();
             this.txtRouteNumber = new System.Windows.Forms.TextBox();
             this.txtBusNumber = new System.Windows.Forms.TextBox();
             this.lblRouteNumber = new System.Windows.Forms.Label();
             this.lblBusNumber = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lnkstop = new System.Windows.Forms.DataGridViewLinkColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lnkAddStops
-            // 
-            this.lnkAddStops.AutoSize = true;
-            this.lnkAddStops.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkAddStops.LinkColor = System.Drawing.Color.Maroon;
-            this.lnkAddStops.Location = new System.Drawing.Point(26, 190);
-            this.lnkAddStops.Name = "lnkAddStops";
-            this.lnkAddStops.Size = new System.Drawing.Size(100, 24);
-            this.lnkAddStops.TabIndex = 17;
-            this.lnkAddStops.TabStop = true;
-            this.lnkAddStops.Text = "AddStops";
-            this.lnkAddStops.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAddStops_LinkClicked);
             // 
             // cmdAddnum
             // 
             this.cmdAddnum.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cmdAddnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdAddnum.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdAddnum.Location = new System.Drawing.Point(175, 184);
+            this.cmdAddnum.Location = new System.Drawing.Point(366, 51);
             this.cmdAddnum.Name = "cmdAddnum";
             this.cmdAddnum.Size = new System.Drawing.Size(104, 38);
             this.cmdAddnum.TabIndex = 16;
@@ -100,13 +89,31 @@
             this.lblBusNumber.TabIndex = 12;
             this.lblBusNumber.Text = "BusNumber";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.lnkstop});
+            this.dataGridView1.Location = new System.Drawing.Point(39, 177);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(328, 150);
+            this.dataGridView1.TabIndex = 17;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // lnkstop
+            // 
+            this.lnkstop.HeaderText = "stops";
+            this.lnkstop.Name = "lnkstop";
+            this.lnkstop.Text = "add stops";
+            this.lnkstop.UseColumnTextForLinkValue = true;
+            // 
             // Addnum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(321, 289);
-            this.Controls.Add(this.lnkAddStops);
+            this.ClientSize = new System.Drawing.Size(635, 339);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cmdAddnum);
             this.Controls.Add(this.txtRouteNumber);
             this.Controls.Add(this.txtBusNumber);
@@ -114,6 +121,7 @@
             this.Controls.Add(this.lblBusNumber);
             this.Name = "Addnum";
             this.Text = "Addnum";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,11 +129,12 @@
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel lnkAddStops;
         private System.Windows.Forms.Button cmdAddnum;
         private System.Windows.Forms.TextBox txtRouteNumber;
         private System.Windows.Forms.TextBox txtBusNumber;
         private System.Windows.Forms.Label lblRouteNumber;
         private System.Windows.Forms.Label lblBusNumber;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewLinkColumn lnkstop;
     }
 }
