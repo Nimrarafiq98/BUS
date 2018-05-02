@@ -19,7 +19,10 @@ namespace WcfService1
         void registration(string username, string password);
         [OperationContract]
         bool reset(string username, string password, string ConfirmPassword);
-        
+        [OperationContract]
+        bool update(string busnumber, string routenumber, string newbusnum, string newroutenum);
+
+
        
         [OperationContract]
         void addroute(string BusNumber, string RouteNumber);

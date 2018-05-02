@@ -90,3 +90,5 @@ C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Update.resources
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.csproj.GenerateResource.Cache
 C:\Users\de\Desktop\BRF\Routes\Routes\bin\Debug\Routes.exe
 C:\Users\de\Desktop\BRF\Routes\Routes\bin\Debug\Routes.pdb
+C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Newnum.resources
+C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Update.resources

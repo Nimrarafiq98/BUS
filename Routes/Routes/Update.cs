@@ -34,7 +34,8 @@ namespace Routes
             if (e.ColumnIndex == 0)
             {
                 Server.Route post = my.getdetail(e.RowIndex, postIDSepecified);
-               
+                Newnum pd = new Newnum(post);
+                pd.Show();
             }
         }
     }
