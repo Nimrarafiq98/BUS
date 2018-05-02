@@ -19,7 +19,8 @@ namespace WcfService1
         void registration(string username, string password);
         [OperationContract]
         bool reset(string username, string password, string ConfirmPassword);
-
+        
+       
         [OperationContract]
         void addroute(string BusNumber, string RouteNumber);
 
@@ -31,6 +32,12 @@ namespace WcfService1
         [OperationContract]
 
         List<Stops> getstops();
+        [OperationContract]
+        List<Route> getbusroute();
+
+        [OperationContract]
+        Route getdetail(int ID);
+
 
          [OperationContract]
         string GetData(int value);

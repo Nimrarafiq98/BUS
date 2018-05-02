@@ -70,6 +70,7 @@ namespace WcfService1
 
             return find;
         }
+
         public void addroute(string BusNumber, string RouteNumber)
         {
             Route route = new Route();
@@ -77,12 +78,12 @@ namespace WcfService1
             route.RouteNumber1 = RouteNumber;
             RouteDL.myRoutes.Add(route);
         }
-         public void addstop(string StopName)
+        public void addstop(string StopName)
         {
             Stops c = new Stops();
             c.StopName1 = StopName;
 
-            
+
             Route.Mystops.Add(c);
 
 
@@ -91,6 +92,13 @@ namespace WcfService1
         {
             return Route.Mystops;
         }
-
+        public List<Route> getbusroute()
+        {
+            return RouteDL.myRoutes;
+        }
+        public Route getdetail(int ID)
+        {
+            return RouteDL.myRoutes[ID];
+        }
     }
 }

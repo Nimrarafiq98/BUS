@@ -32,6 +32,7 @@
             this.cmdAddStop = new System.Windows.Forms.Button();
             this.txtStopName = new System.Windows.Forms.TextBox();
             this.lblStopName = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,12 +78,26 @@
             this.lblStopName.TabIndex = 4;
             this.lblStopName.Text = "StopName";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Navy;
+            this.button1.Location = new System.Drawing.Point(336, 231);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(162, 36);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Update Route";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Addstop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(521, 336);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cmdAddStop);
             this.Controls.Add(this.txtStopName);
@@ -101,5 +116,6 @@
         private System.Windows.Forms.Button cmdAddStop;
         private System.Windows.Forms.TextBox txtStopName;
         private System.Windows.Forms.Label lblStopName;
+        private System.Windows.Forms.Button button1;
     }
 }
