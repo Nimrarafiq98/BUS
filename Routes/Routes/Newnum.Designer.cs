@@ -150,7 +150,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(429, 29);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 28;
+            this.dataGridView1.TabIndex = 29;
             // 
             // Newnum
             // 
