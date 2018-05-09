@@ -81,7 +81,7 @@
             // 
             this.cmdChange.BackColor = System.Drawing.Color.White;
             this.cmdChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdChange.ForeColor = System.Drawing.Color.Navy;
+            this.cmdChange.ForeColor = System.Drawing.Color.Crimson;
             this.cmdChange.Location = new System.Drawing.Point(199, 255);
             this.cmdChange.Name = "cmdChange";
             this.cmdChange.Size = new System.Drawing.Size(111, 35);

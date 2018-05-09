@@ -46,7 +46,7 @@
             // 
             this.cmdAddnum.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cmdAddnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAddnum.ForeColor = System.Drawing.Color.Maroon;
+            this.cmdAddnum.ForeColor = System.Drawing.Color.Crimson;
             this.cmdAddnum.Location = new System.Drawing.Point(236, 342);
             this.cmdAddnum.Name = "cmdAddnum";
             this.cmdAddnum.Size = new System.Drawing.Size(104, 38);
@@ -75,7 +75,7 @@
             // 
             this.lblRouteNumber.AutoSize = true;
             this.lblRouteNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRouteNumber.ForeColor = System.Drawing.Color.Navy;
+            this.lblRouteNumber.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblRouteNumber.Location = new System.Drawing.Point(44, 267);
             this.lblRouteNumber.Name = "lblRouteNumber";
             this.lblRouteNumber.Size = new System.Drawing.Size(159, 20);
@@ -86,7 +86,7 @@
             // 
             this.lblBusNumber.AutoSize = true;
             this.lblBusNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusNumber.ForeColor = System.Drawing.Color.Navy;
+            this.lblBusNumber.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblBusNumber.Location = new System.Drawing.Point(44, 198);
             this.lblBusNumber.Name = "lblBusNumber";
             this.lblBusNumber.Size = new System.Drawing.Size(141, 20);
@@ -113,7 +113,7 @@
             // 
             this.lblOldbus.AutoSize = true;
             this.lblOldbus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOldbus.ForeColor = System.Drawing.Color.Navy;
+            this.lblOldbus.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblOldbus.Location = new System.Drawing.Point(44, 42);
             this.lblOldbus.Name = "lblOldbus";
             this.lblOldbus.Size = new System.Drawing.Size(134, 20);
@@ -124,7 +124,7 @@
             // 
             this.lbloldroute.AutoSize = true;
             this.lbloldroute.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbloldroute.ForeColor = System.Drawing.Color.Navy;
+            this.lbloldroute.ForeColor = System.Drawing.Color.SteelBlue;
             this.lbloldroute.Location = new System.Drawing.Point(44, 121);
             this.lbloldroute.Name = "lbloldroute";
             this.lbloldroute.Size = new System.Drawing.Size(152, 20);
@@ -135,12 +135,12 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Navy;
+            this.button1.ForeColor = System.Drawing.Color.Crimson;
             this.button1.Location = new System.Drawing.Point(67, 344);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 36);
             this.button1.TabIndex = 27;
-            this.button1.Text = "updateStop";
+            this.button1.Text = "UpdateStop";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
