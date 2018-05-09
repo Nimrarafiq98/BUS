@@ -39,6 +39,8 @@
             this.lblLatitude = new System.Windows.Forms.Label();
             this.txtLongitude = new System.Windows.Forms.TextBox();
             this.txtLatitude = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +51,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(5, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(283, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(379, 426);
             this.dataGridView1.TabIndex = 7;
             // 
             // cmdAddStop
@@ -57,7 +59,7 @@
             this.cmdAddStop.BackColor = System.Drawing.Color.White;
             this.cmdAddStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdAddStop.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdAddStop.Location = new System.Drawing.Point(398, 152);
+            this.cmdAddStop.Location = new System.Drawing.Point(408, 313);
             this.cmdAddStop.Name = "cmdAddStop";
             this.cmdAddStop.Size = new System.Drawing.Size(100, 33);
             this.cmdAddStop.TabIndex = 6;
@@ -67,7 +69,7 @@
             // 
             // txtStopName
             // 
-            this.txtStopName.Location = new System.Drawing.Point(307, 70);
+            this.txtStopName.Location = new System.Drawing.Point(578, 90);
             this.txtStopName.Multiline = true;
             this.txtStopName.Name = "txtStopName";
             this.txtStopName.Size = new System.Drawing.Size(203, 41);
@@ -78,7 +80,7 @@
             this.lblStopName.AutoSize = true;
             this.lblStopName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStopName.ForeColor = System.Drawing.Color.Navy;
-            this.lblStopName.Location = new System.Drawing.Point(303, 23);
+            this.lblStopName.Location = new System.Drawing.Point(404, 102);
             this.lblStopName.Name = "lblStopName";
             this.lblStopName.Size = new System.Drawing.Size(93, 20);
             this.lblStopName.TabIndex = 4;
@@ -89,7 +91,7 @@
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Navy;
-            this.button1.Location = new System.Drawing.Point(347, 252);
+            this.button1.Location = new System.Drawing.Point(529, 310);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 36);
             this.button1.TabIndex = 19;
@@ -99,59 +101,95 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(307, 126);
+            this.textBox1.Location = new System.Drawing.Point(578, 23);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(125, 42);
             this.textBox1.TabIndex = 20;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(320, 294);
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Navy;
+            this.button2.Location = new System.Drawing.Point(713, 308);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 21;
             this.button2.Text = "Search";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblLongitude
             // 
             this.lblLongitude.AutoSize = true;
-            this.lblLongitude.Location = new System.Drawing.Point(565, 29);
+            this.lblLongitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLongitude.ForeColor = System.Drawing.Color.Navy;
+            this.lblLongitude.Location = new System.Drawing.Point(404, 171);
             this.lblLongitude.Name = "lblLongitude";
-            this.lblLongitude.Size = new System.Drawing.Size(54, 13);
+            this.lblLongitude.Size = new System.Drawing.Size(103, 24);
             this.lblLongitude.TabIndex = 22;
             this.lblLongitude.Text = "Longitude";
             // 
             // lblLatitude
             // 
             this.lblLatitude.AutoSize = true;
-            this.lblLatitude.Location = new System.Drawing.Point(667, 28);
+            this.lblLatitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLatitude.ForeColor = System.Drawing.Color.Navy;
+            this.lblLatitude.Location = new System.Drawing.Point(404, 234);
             this.lblLatitude.Name = "lblLatitude";
-            this.lblLatitude.Size = new System.Drawing.Size(45, 13);
+            this.lblLatitude.Size = new System.Drawing.Size(83, 24);
             this.lblLatitude.TabIndex = 23;
             this.lblLatitude.Text = "Latitude";
             // 
             // txtLongitude
             // 
-            this.txtLongitude.Location = new System.Drawing.Point(516, 70);
+            this.txtLongitude.Location = new System.Drawing.Point(578, 171);
+            this.txtLongitude.Multiline = true;
             this.txtLongitude.Name = "txtLongitude";
-            this.txtLongitude.Size = new System.Drawing.Size(100, 20);
+            this.txtLongitude.Size = new System.Drawing.Size(174, 41);
             this.txtLongitude.TabIndex = 24;
             // 
             // txtLatitude
             // 
-            this.txtLatitude.Location = new System.Drawing.Point(638, 70);
+            this.txtLatitude.Location = new System.Drawing.Point(578, 234);
+            this.txtLatitude.Multiline = true;
             this.txtLatitude.Name = "txtLatitude";
-            this.txtLatitude.Size = new System.Drawing.Size(100, 20);
+            this.txtLatitude.Size = new System.Drawing.Size(174, 41);
             this.txtLatitude.TabIndex = 25;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(404, 23);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(123, 24);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Bus number";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Navy;
+            this.button3.Location = new System.Drawing.Point(661, 370);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 38);
+            this.button3.TabIndex = 27;
+            this.button3.Text = "Back";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Addstop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(750, 336);
+            this.ClientSize = new System.Drawing.Size(832, 441);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtLatitude);
             this.Controls.Add(this.txtLongitude);
             this.Controls.Add(this.lblLatitude);
@@ -184,5 +222,7 @@
         private System.Windows.Forms.Label lblLatitude;
         private System.Windows.Forms.TextBox txtLongitude;
         private System.Windows.Forms.TextBox txtLatitude;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
     }
 }

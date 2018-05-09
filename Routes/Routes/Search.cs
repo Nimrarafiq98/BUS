@@ -52,9 +52,6 @@ namespace Routes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Suggestion sug = new Suggestion();
-            this.Hide();
-            sug.Show();
          
         }
 
