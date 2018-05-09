@@ -26,7 +26,10 @@ namespace WcfService1
 
         [OperationContract]
         bool addroute(string BusNumber, string RouteNumber);
-       
+        [OperationContract]
+        Route suggest();
+        [OperationContract]
+        bool shortest(string busnumber, string routenumber);
 
         [OperationContract]
         
@@ -42,14 +45,16 @@ namespace WcfService1
         [OperationContract]
         Route getdetail(int ID);
         [OperationContract]
+        Route find(string busnumber);
+        [OperationContract]
         bool searchpick(string pickup);
         [OperationContract]
-        bool searchdown(string dropdown, string pickup);
+        bool searchdown(string dropdown,string pickup);
         
-        
-        
-       
-        
+        [OperationContract]
+        List<Route> getsearch();
+        [OperationContract]
+        int distance(string pickup,string dropdown);
 
 
 

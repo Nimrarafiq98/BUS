@@ -30,7 +30,13 @@ namespace Routes
                     this.Hide();
                     add.Show();
                 
-               
+                if (comboBox1.Text== "user")
+                {
+                    Search search = new Search();
+                    this.Hide();
+                    search.Show();
+                    MessageBox.Show("valid");
+                }
                 
             }
             else
