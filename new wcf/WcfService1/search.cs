@@ -13,7 +13,7 @@ namespace WcfService1
     {
         public static List<Route> searchr = new List<Route>();
         public static List<Route> picklist = new List<Route>();
-        public static List<Route> shortest = new List<Route>();
+        public static List<Route> shortest = new List<Route>();// lists to filter out the routes
         
     }
 }

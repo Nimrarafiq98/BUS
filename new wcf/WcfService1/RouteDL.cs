@@ -10,6 +10,6 @@ namespace WcfService1
     [DataContract]
     public class RouteDL
     {
-        public static List<Route> myRoutes = new List<Route>();
+        public static List<Route> myRoutes = new List<Route>();// to add routes
     }
 }
