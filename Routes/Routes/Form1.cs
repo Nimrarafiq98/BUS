@@ -22,7 +22,7 @@ namespace Routes
             Server.Service1 server = new Server.Service1();
             bool registration;
             bool registrationpassed;
-            server.registration(txtUsername.Text, txtPassword.Text,out registration,out registrationpassed);
+            server.registration(txtUsername.Text, txtPassword.Text,comboBox1.Text,out registration,out registrationpassed);
             if (registration)
             {
 
@@ -53,21 +53,14 @@ namespace Routes
             registration.Show();
         }
 
-       
-
-        private void lblType_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             login login = new login();
             this.Hide();
             login.Show();
         }
 
-        private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             login login = new login();
             this.Hide();

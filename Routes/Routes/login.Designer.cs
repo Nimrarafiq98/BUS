@@ -36,8 +36,8 @@
             this.lnklblLogin = new System.Windows.Forms.LinkLabel();
             this.lblUsername = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.lblType = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lnkReset
@@ -126,27 +126,27 @@
             this.menuStrip1.TabIndex = 36;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // lblType
+            // 
+            this.lblType.AutoSize = true;
+            this.lblType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblType.ForeColor = System.Drawing.Color.Navy;
+            this.lblType.Location = new System.Drawing.Point(32, 149);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(47, 20);
+            this.lblType.TabIndex = 37;
+            this.lblType.Text = "Type";
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "admin",
             "user"});
-            this.comboBox1.Location = new System.Drawing.Point(161, 160);
+            this.comboBox1.Location = new System.Drawing.Point(166, 151);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 40;
-            // 
-            // lblType
-            // 
-            this.lblType.AutoSize = true;
-            this.lblType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblType.ForeColor = System.Drawing.Color.Navy;
-            this.lblType.Location = new System.Drawing.Point(27, 158);
-            this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(47, 20);
-            this.lblType.TabIndex = 39;
-            this.lblType.Text = "Type";
+            this.comboBox1.TabIndex = 38;
             // 
             // login
             // 
@@ -182,7 +182,7 @@
         private System.Windows.Forms.LinkLabel lnklblLogin;
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lblType;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

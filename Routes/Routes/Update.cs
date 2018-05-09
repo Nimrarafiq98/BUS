@@ -33,7 +33,14 @@ namespace Routes
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-           
+            Server.Service1 my = new Server.Service1();
+            bool postIDSepecified = true;
+            if (e.ColumnIndex == 0)
+            {
+                Server.Route post = my.getdetail(e.RowIndex, postIDSepecified);
+                Newnum pd = new Newnum(post);
+                pd.Show();
+            }
         }
     }
 }
