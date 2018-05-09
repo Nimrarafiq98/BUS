@@ -22,13 +22,13 @@ namespace Routes
             Server.Service1 server = new Server.Service1();
             bool updatestops;
             bool updatestopsPassed;
-            server.updatestops(txtOldstopname.Text, txtnewstopname.Text, out updatestops, out updatestopsPassed);
+            server.updatestops(  txtbus.Text, txtOldstopname.Text, txtnewstopname.Text, out updatestops, out updatestopsPassed);
             if (updatestops)
             {
                 MessageBox.Show("stop updated");
                 Server.Service1 myserver = new Server.Service1();
                 BindingSource bs = new BindingSource();
-                bs.DataSource = myserver.getstops();
+                bs.DataSource = myserver.getstops(txtbus.Text);
                 dataGridView1.DataSource = bs;
             }
             else

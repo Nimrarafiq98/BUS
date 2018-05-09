@@ -19,16 +19,14 @@ namespace WcfService1
         bool registration(string username, string password,string type);
         [OperationContract]
         bool reset(string username, string password, string ConfirmPassword);
-        //[OperationContract]
-        //bool update(string busnumber, string routenumber, string newbusnum, string newroutenum);
+        [OperationContract]
+        bool update(string busnumber, string routenumber, string newbusnum, string newroutenum);
         [OperationContract]
         bool updatestops(string busnumber,string stopname, string newstopname);
 
         [OperationContract]
         bool addroute(string BusNumber, string RouteNumber);
        
-        [OperationContract]
-        bool shortest(string busnumber, string routenumber);
 
         [OperationContract]
         
@@ -43,8 +41,7 @@ namespace WcfService1
 
         [OperationContract]
         Route getdetail(int ID);
-        [OperationContract]
-        Route find(string busnumber);
+     
         
         
        

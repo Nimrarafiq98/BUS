@@ -80,6 +80,31 @@ namespace WcfService1
 
             return find;
         }
+        public bool addstop(string busnumber, string StopName, string longitude, string latitude)
+        {
+            bool check = true;
+            if ((StopName == "") && (latitude == "") && (longitude == ""))
+            { check = false; }
+            else
+            {
+                bool val = false;
+                foreach (Route R in RouteDL.myRoutes)
+                {
+                    if ((R.BusNumber1 == busnumber))
+                    {
+                        Stops c = new Stops();
+                        c.StopName1 = StopName;
+                        c.Longitude1 = int.Parse(longitude);
+                        c.Latitude = int.Parse(latitude);
+                        R.Mystops.Add(c);
+                        val = true;
+                    }
+                }
+                return val;
+
+            }
+            return check;
+        }
 
         public bool update(string busnumber, string routenumber, string newbusnum, string newroutenum)
         {
@@ -94,6 +119,28 @@ namespace WcfService1
                 }
             }
             return val;
+
+        }
+
+        public bool updatestops(string busnumber, string stopname, string newstopname)
+        {
+            bool val = false;
+            foreach (Route R in RouteDL.myRoutes)
+            {
+                if ((R.BusNumber1 == busnumber))
+                {
+                    foreach (Stops S in R.Mystops)
+                    {
+                        if (S.StopName1 == stopname)
+                        {
+                            S.StopName1 = newstopname;
+                            val = true;
+                        }
+                    }
+                }
+            }
+            return val;
+
 
         }
         public bool addroute(string BusNumber, string RouteNumber)
@@ -130,15 +177,6 @@ namespace WcfService1
         public Route getdetail(int ID)
         {
             return RouteDL.myRoutes[ID];
-
-
-
-
-
-}
-        public List<Route> getsearch()
-        {
-            return search.searchr;        
         }
         }
     }
