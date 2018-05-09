@@ -45,11 +45,11 @@ namespace WcfService1
 
             return check;
         }
-        public bool registration(string username, string password,string Type)
+        public bool registration(string username, string password,string type)
         {
             bool check = true;
             myuser user = new myuser();
-            if ((username == "") && (password == "")&(type==""))
+            if ((username == "") && (password == "")&&(type==""))
             {
                 check = false;
             }
@@ -57,7 +57,7 @@ namespace WcfService1
             {
                 user.Username = username;
                 user.Password = password;
-                user.Type=type;
+                user.Type = type;
                 data.datalist.Add(user);
               
             }
@@ -96,28 +96,6 @@ namespace WcfService1
             return val;
 
         }
-
-        public bool updatestops(string busnumber,string stopname, string newstopname)
-        {
-            bool val = false;
-            foreach (Route R in RouteDL.myRoutes)
-            {
-                if ((R.BusNumber1 == busnumber))
-                {
-                    foreach (Stops S in R.Mystops)
-                    {
-                        if (S.StopName1 == stopname)
-                        {
-                            S.StopName1 = newstopname;
-                            val = true;
-                        }
-                    }
-                }
-            }
-            return val;
-
-           
-        }
         public bool addroute(string BusNumber, string RouteNumber)
         {
             bool check = true;
@@ -131,30 +109,19 @@ namespace WcfService1
             }
             return check;
         }
-        public bool addstop(string busnumber,string StopName,string longitude,string latitude)
+      
+       
+        public List<Stops> getstops(string busnumber)
         {
-            bool check = true;
-            if ((StopName == "") && (latitude == "") && (longitude == ""))
-            { check = false; }
-            else
+            
+             foreach (Route R in RouteDL.myRoutes)
             {
-                bool val = false;
-                foreach (Route R in RouteDL.myRoutes)
+                if ((R.BusNumber1 == busnumber))
                 {
-                    if ((R.BusNumber1 == busnumber))
-                    {
-                        Stops c = new Stops();
-                        c.StopName1 = StopName;
-                        c.Longitude1 = int.Parse(longitude);
-                        c.Latitude = int.Parse(latitude);
-                        R.Mystops.Add(c);
-                        val = true;
-                    }
+                    return R.Mystops;
                 }
-                return val;
-
-            }
-            return check;
+        }
+             return null;
         }
         public List<Route> getbusroute()
         {
