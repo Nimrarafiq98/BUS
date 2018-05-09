@@ -22,14 +22,15 @@ namespace Routes
             Server.Service1 server = new Server.Service1();
             bool isvalid;
             bool isvalidPassed;
-            server.isvalid(txtUsername.Text, txtPassword.Text, out isvalid, out isvalidPassed);
+            server.isvalid(txtUsername.Text, txtPassword.Text,out isvalid, out isvalidPassed);
             if (isvalid)
-            {
-                MessageBox.Show("valid user!");
+            { MessageBox.Show(" valid");
 
-                Addnum Addnum = new Addnum();
-                this.Hide();
-                Addnum.Show();  
+                    Addnum add = new Addnum();
+                    this.Hide();
+                    add.Show();
+               
+                
             }
             else
             {

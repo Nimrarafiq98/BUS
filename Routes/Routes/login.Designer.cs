@@ -73,7 +73,7 @@
             this.cmdRegistration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cmdRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdRegistration.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdRegistration.Location = new System.Drawing.Point(253, 165);
+            this.cmdRegistration.Location = new System.Drawing.Point(256, 219);
             this.cmdRegistration.Name = "cmdRegistration";
             this.cmdRegistration.Size = new System.Drawing.Size(97, 36);
             this.cmdRegistration.TabIndex = 30;

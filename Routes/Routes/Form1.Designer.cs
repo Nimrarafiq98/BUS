@@ -32,7 +32,6 @@
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.cmdRegister = new System.Windows.Forms.Button();
             this.lblPassword = new System.Windows.Forms.Label();
-            this.lnklbllogin = new System.Windows.Forms.LinkLabel();
             this.lblUsername = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
@@ -81,22 +80,6 @@
             this.lblPassword.TabIndex = 20;
             this.lblPassword.Text = "Password";
             // 
-            // lnklbllogin
-            // 
-            this.lnklbllogin.ActiveLinkColor = System.Drawing.Color.Navy;
-            this.lnklbllogin.AutoSize = true;
-            this.lnklbllogin.DisabledLinkColor = System.Drawing.Color.MidnightBlue;
-            this.lnklbllogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnklbllogin.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lnklbllogin.LinkColor = System.Drawing.Color.Maroon;
-            this.lnklbllogin.Location = new System.Drawing.Point(71, 251);
-            this.lnklbllogin.Name = "lnklbllogin";
-            this.lnklbllogin.Size = new System.Drawing.Size(56, 24);
-            this.lnklbllogin.TabIndex = 19;
-            this.lnklbllogin.TabStop = true;
-            this.lnklbllogin.Text = "login";
-            this.lnklbllogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklbllogin_LinkClicked);
-            // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
@@ -144,7 +127,6 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.cmdRegister);
             this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.lnklbllogin);
             this.Controls.Add(this.lblUsername);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -161,7 +143,6 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Button cmdRegister;
         private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.LinkLabel lnklbllogin;
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;

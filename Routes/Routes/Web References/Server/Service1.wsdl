@@ -43,6 +43,18 @@
   <wsdl:message name="IService1_addroute_OutputMessage">
     <wsdl:part name="parameters" element="tns:addrouteResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_suggest_InputMessage">
+    <wsdl:part name="parameters" element="tns:suggest" />
+  </wsdl:message>
+  <wsdl:message name="IService1_suggest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:suggestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_shortest_InputMessage">
+    <wsdl:part name="parameters" element="tns:shortest" />
+  </wsdl:message>
+  <wsdl:message name="IService1_shortest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:shortestResponse" />
+  </wsdl:message>
   <wsdl:message name="IService1_addstop_InputMessage">
     <wsdl:part name="parameters" element="tns:addstop" />
   </wsdl:message>
@@ -66,6 +78,36 @@
   </wsdl:message>
   <wsdl:message name="IService1_getdetail_OutputMessage">
     <wsdl:part name="parameters" element="tns:getdetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_find_InputMessage">
+    <wsdl:part name="parameters" element="tns:find" />
+  </wsdl:message>
+  <wsdl:message name="IService1_find_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_searchpick_InputMessage">
+    <wsdl:part name="parameters" element="tns:searchpick" />
+  </wsdl:message>
+  <wsdl:message name="IService1_searchpick_OutputMessage">
+    <wsdl:part name="parameters" element="tns:searchpickResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_searchdown_InputMessage">
+    <wsdl:part name="parameters" element="tns:searchdown" />
+  </wsdl:message>
+  <wsdl:message name="IService1_searchdown_OutputMessage">
+    <wsdl:part name="parameters" element="tns:searchdownResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getsearch_InputMessage">
+    <wsdl:part name="parameters" element="tns:getsearch" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getsearch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getsearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_distance_InputMessage">
+    <wsdl:part name="parameters" element="tns:distance" />
+  </wsdl:message>
+  <wsdl:message name="IService1_distance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:distanceResponse" />
   </wsdl:message>
   <wsdl:message name="IService1_GetData_InputMessage">
     <wsdl:part name="parameters" element="tns:GetData" />
@@ -104,6 +146,14 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/addroute" message="tns:IService1_addroute_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/addrouteResponse" message="tns:IService1_addroute_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="suggest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/suggest" message="tns:IService1_suggest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/suggestResponse" message="tns:IService1_suggest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="shortest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/shortest" message="tns:IService1_shortest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/shortestResponse" message="tns:IService1_shortest_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="addstop">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/addstop" message="tns:IService1_addstop_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/addstopResponse" message="tns:IService1_addstop_OutputMessage" />
@@ -119,6 +169,26 @@
     <wsdl:operation name="getdetail">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/getdetail" message="tns:IService1_getdetail_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/getdetailResponse" message="tns:IService1_getdetail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/find" message="tns:IService1_find_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/findResponse" message="tns:IService1_find_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="searchpick">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/searchpick" message="tns:IService1_searchpick_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/searchpickResponse" message="tns:IService1_searchpick_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="searchdown">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/searchdown" message="tns:IService1_searchdown_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/searchdownResponse" message="tns:IService1_searchdown_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getsearch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getsearch" message="tns:IService1_getsearch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getsearchResponse" message="tns:IService1_getsearch_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="distance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/distance" message="tns:IService1_distance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/distanceResponse" message="tns:IService1_distance_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -185,6 +255,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="suggest">
+      <soap:operation soapAction="http://tempuri.org/IService1/suggest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="shortest">
+      <soap:operation soapAction="http://tempuri.org/IService1/shortest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="addstop">
       <soap:operation soapAction="http://tempuri.org/IService1/addstop" style="document" />
       <wsdl:input>
@@ -214,6 +302,51 @@
     </wsdl:operation>
     <wsdl:operation name="getdetail">
       <soap:operation soapAction="http://tempuri.org/IService1/getdetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <soap:operation soapAction="http://tempuri.org/IService1/find" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchpick">
+      <soap:operation soapAction="http://tempuri.org/IService1/searchpick" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="searchdown">
+      <soap:operation soapAction="http://tempuri.org/IService1/searchdown" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getsearch">
+      <soap:operation soapAction="http://tempuri.org/IService1/getsearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="distance">
+      <soap:operation soapAction="http://tempuri.org/IService1/distance" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

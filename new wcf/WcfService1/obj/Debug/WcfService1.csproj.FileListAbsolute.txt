@@ -53,8 +53,9 @@ C:\Users\MALIK SHAHBAZ\Desktop\BUS\new wcf\WcfService1\bin\WcfService1.pdb
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.dll
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.pdb
-C:\Users\Muhammad Zaman\Desktop\BUS\new wcf\WcfService1\bin\WcfService1.dll
-C:\Users\Muhammad Zaman\Desktop\BUS\new wcf\WcfService1\bin\WcfService1.pdb
-C:\Users\Muhammad Zaman\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
-C:\Users\Muhammad Zaman\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.dll
-C:\Users\Muhammad Zaman\Desktop\BUS\new wcf\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\bin\WcfService1.dll.config
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\bin\WcfService1.dll
+C:\Users\de\Desktop\BRF\new wcf\WcfService1\bin\WcfService1.pdb

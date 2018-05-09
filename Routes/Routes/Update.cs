@@ -23,20 +23,17 @@ namespace Routes
             BindingSource bs = new BindingSource();
             bs.DataSource = myserver.getbusroute();
             dataGridView1.DataSource = bs;
+            dataGridView1.Columns[2].Visible = false;
+            dataGridView1.Columns[3].Visible = false;
+            dataGridView1.Columns[5].Visible = false;
+            dataGridView1.Columns[6].Visible = false;
 
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-            Server.Service1 my = new Server.Service1();
-            bool postIDSepecified = true;
-            if (e.ColumnIndex == 0)
-            {
-                Server.Route post = my.getdetail(e.RowIndex, postIDSepecified);
-                Newnum pd = new Newnum(post);
-                pd.Show();
-            }
+           
         }
     }
 }
