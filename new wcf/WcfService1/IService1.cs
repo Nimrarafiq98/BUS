@@ -41,6 +41,8 @@ namespace WcfService1
 
         [OperationContract]
         Route getdetail(int ID);
+        [OperationContract]
+        bool searchpick(string pickup);
      
         
         

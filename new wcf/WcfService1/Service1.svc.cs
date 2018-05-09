@@ -156,6 +156,24 @@ namespace WcfService1
             }
             return check;
         }
+        public bool searchpick(string pickup)
+        {
+            bool pick = false;
+            foreach (Route R in RouteDL.myRoutes)
+            {
+                foreach (Stops S in R.Mystops)
+                {
+                    if (S.StopName1 == pickup)
+                    {
+                        search.picklist.Add(R);
+                        pick = true;
+                    }
+                }
+
+            }
+            return pick;
+        }
+
       
        
         public List<Stops> getstops(string busnumber)
