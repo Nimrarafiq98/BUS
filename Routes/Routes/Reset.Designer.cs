@@ -42,7 +42,7 @@
             // 
             this.lnkLogin.AutoSize = true;
             this.lnkLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkLogin.LinkColor = System.Drawing.Color.Maroon;
+            this.lnkLogin.LinkColor = System.Drawing.Color.Crimson;
             this.lnkLogin.Location = new System.Drawing.Point(40, 251);
             this.lnkLogin.Name = "lnkLogin";
             this.lnkLogin.Size = new System.Drawing.Size(62, 24);
@@ -55,8 +55,8 @@
             // 
             this.cmdOK.BackColor = System.Drawing.Color.White;
             this.cmdOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdOK.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdOK.Location = new System.Drawing.Point(236, 191);
+            this.cmdOK.ForeColor = System.Drawing.Color.Crimson;
+            this.cmdOK.Location = new System.Drawing.Point(236, 240);
             this.cmdOK.Name = "cmdOK";
             this.cmdOK.Size = new System.Drawing.Size(104, 35);
             this.cmdOK.TabIndex = 31;
@@ -92,34 +92,34 @@
             // 
             this.lblConfirmpassword.AutoSize = true;
             this.lblConfirmpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfirmpassword.ForeColor = System.Drawing.Color.Navy;
+            this.lblConfirmpassword.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblConfirmpassword.Location = new System.Drawing.Point(37, 138);
             this.lblConfirmpassword.Name = "lblConfirmpassword";
-            this.lblConfirmpassword.Size = new System.Drawing.Size(144, 20);
+            this.lblConfirmpassword.Size = new System.Drawing.Size(153, 20);
             this.lblConfirmpassword.TabIndex = 27;
-            this.lblConfirmpassword.Text = "confirmpassword";
+            this.lblConfirmpassword.Text = "Confirm Password";
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.ForeColor = System.Drawing.Color.Navy;
+            this.lblPassword.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblPassword.Location = new System.Drawing.Point(37, 88);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(85, 20);
+            this.lblPassword.Size = new System.Drawing.Size(86, 20);
             this.lblPassword.TabIndex = 26;
-            this.lblPassword.Text = "password";
+            this.lblPassword.Text = "Password";
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.Navy;
+            this.lblUsername.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblUsername.Location = new System.Drawing.Point(40, 41);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(88, 20);
+            this.lblUsername.Size = new System.Drawing.Size(91, 20);
             this.lblUsername.TabIndex = 25;
-            this.lblUsername.Text = "username";
+            this.lblUsername.Text = "Username";
             // 
             // Reset
             // 

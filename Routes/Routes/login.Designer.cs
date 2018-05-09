@@ -111,10 +111,10 @@
             this.lnklblLogin.LinkColor = System.Drawing.Color.Crimson;
             this.lnklblLogin.Location = new System.Drawing.Point(140, 381);
             this.lnklblLogin.Name = "lnklblLogin";
-            this.lnklblLogin.Size = new System.Drawing.Size(100, 20);
+            this.lnklblLogin.Size = new System.Drawing.Size(107, 20);
             this.lnklblLogin.TabIndex = 28;
             this.lnklblLogin.TabStop = true;
-            this.lnklblLogin.Text = "registration";
+            this.lnklblLogin.Text = "Registration";
             this.lnklblLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklblLogin_LinkClicked);
             // 
             // lblUsername
