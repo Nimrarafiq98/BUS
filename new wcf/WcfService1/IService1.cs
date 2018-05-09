@@ -13,10 +13,10 @@ namespace WcfService1
     public interface IService1
     {
         [OperationContract]
-        bool isvalid(string username, string password,string Type);
+        bool isvalid(string username, string password, string Type);
         [OperationContract]
 
-        bool registration(string username, string password,string type);
+        bool registration(string username, string password, string Type);
         [OperationContract]
         bool reset(string username, string password, string ConfirmPassword);
        

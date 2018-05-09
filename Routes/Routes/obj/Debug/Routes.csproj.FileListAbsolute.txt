@@ -95,3 +95,6 @@ C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Properties.Resources.reso
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Reset.resources
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Update.resources
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.csproj.GenerateResource.Cache
+C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\bin\Debug\Routes.exe.config
+C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\obj\Debug\Routes.exe
+C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\obj\Debug\Routes.pdb

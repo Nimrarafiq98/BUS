@@ -45,11 +45,11 @@ namespace WcfService1
 
             return check;
         }
-        public bool registration(string username, string password,string type)
+        public bool registration(string username, string password,string Type)
         {
             bool check = true;
             myuser user = new myuser();
-            if ((username == "") && (password == "")&&(type==""))
+            if ((username == "") && (password == "")&(type==""))
             {
                 check = false;
             }
@@ -57,7 +57,7 @@ namespace WcfService1
             {
                 user.Username = username;
                 user.Password = password;
-                user.Type = type;
+                user.Type=type;
                 data.datalist.Add(user);
               
             }

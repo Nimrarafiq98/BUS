@@ -53,23 +53,25 @@ namespace Routes
             registration.Show();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            login login = new login();
-            this.Hide();
-            login.Show();
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            login login = new login();
-            this.Hide();
-            login.Show();
-        }
+       
 
         private void lblType_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            login login = new login();
+            this.Hide();
+            login.Show();
+        }
+
+        private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
+        {
+            login login = new login();
+            this.Hide();
+            login.Show();
         }
     }
 }
