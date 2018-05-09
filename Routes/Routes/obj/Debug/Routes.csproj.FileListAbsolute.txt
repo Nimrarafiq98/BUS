@@ -83,15 +83,6 @@ C:\Users\kaleem\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Search.resources
 C:\Users\kaleem\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Suggestion.resources
 C:\Users\kaleem\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Search.resources
 C:\Users\kaleem\Desktop\BRF\Routes\Routes\obj\Debug\Routes.Suggestion.resources
-<<<<<<< HEAD
 C:\Users\de\Desktop\BRF\Routes\Routes\bin\Debug\Routes.exe.config
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.exe
 C:\Users\de\Desktop\BRF\Routes\Routes\obj\Debug\Routes.pdb
-=======
-C:\Users\MALIK SHAHBAZ\Desktop\BRF\Routes\Routes\bin\Debug\Routes.exe.config
-C:\Users\MALIK SHAHBAZ\Desktop\BRF\Routes\Routes\obj\Debug\Routes.exe
-C:\Users\MALIK SHAHBAZ\Desktop\BRF\Routes\Routes\obj\Debug\Routes.pdb
-C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\bin\Debug\Routes.exe.config
-C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\obj\Debug\Routes.exe
-C:\Users\Muhammad Zaman\Desktop\BUS\Routes\Routes\obj\Debug\Routes.pdb
->>>>>>> 841accd8ef935b126b24a1c2640db41e9307bd53
