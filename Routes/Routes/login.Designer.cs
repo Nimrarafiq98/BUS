@@ -35,7 +35,6 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lnklblLogin = new System.Windows.Forms.LinkLabel();
             this.lblUsername = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.lblType = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
@@ -55,8 +54,8 @@
             // 
             this.lnkReset.AutoSize = true;
             this.lnkReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkReset.LinkColor = System.Drawing.Color.Maroon;
-            this.lnkReset.Location = new System.Drawing.Point(154, 227);
+            this.lnkReset.LinkColor = System.Drawing.Color.Crimson;
+            this.lnkReset.Location = new System.Drawing.Point(154, 335);
             this.lnkReset.Name = "lnkReset";
             this.lnkReset.Size = new System.Drawing.Size(57, 20);
             this.lnkReset.TabIndex = 33;
@@ -85,8 +84,8 @@
             this.cmdRegistration.BackColor = System.Drawing.Color.White;
             this.cmdRegistration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cmdRegistration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegistration.ForeColor = System.Drawing.Color.Maroon;
-            this.cmdRegistration.Location = new System.Drawing.Point(343, 219);
+            this.cmdRegistration.ForeColor = System.Drawing.Color.Crimson;
+            this.cmdRegistration.Location = new System.Drawing.Point(415, 335);
             this.cmdRegistration.Name = "cmdRegistration";
             this.cmdRegistration.Size = new System.Drawing.Size(97, 36);
             this.cmdRegistration.TabIndex = 30;
@@ -98,7 +97,7 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.ForeColor = System.Drawing.Color.Navy;
+            this.lblPassword.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblPassword.Location = new System.Drawing.Point(154, 116);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(86, 20);
@@ -109,8 +108,8 @@
             // 
             this.lnklblLogin.AutoSize = true;
             this.lnklblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnklblLogin.LinkColor = System.Drawing.Color.Maroon;
-            this.lnklblLogin.Location = new System.Drawing.Point(154, 271);
+            this.lnklblLogin.LinkColor = System.Drawing.Color.Crimson;
+            this.lnklblLogin.Location = new System.Drawing.Point(140, 381);
             this.lnklblLogin.Name = "lnklblLogin";
             this.lnklblLogin.Size = new System.Drawing.Size(100, 20);
             this.lnklblLogin.TabIndex = 28;
@@ -122,26 +121,18 @@
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.Navy;
+            this.lblUsername.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblUsername.Location = new System.Drawing.Point(154, 50);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(91, 20);
             this.lblUsername.TabIndex = 27;
             this.lblUsername.Text = "Username";
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(550, 24);
-            this.menuStrip1.TabIndex = 36;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
             // lblType
             // 
             this.lblType.AutoSize = true;
             this.lblType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblType.ForeColor = System.Drawing.Color.Navy;
+            this.lblType.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblType.Location = new System.Drawing.Point(154, 164);
             this.lblType.Name = "lblType";
             this.lblType.Size = new System.Drawing.Size(47, 20);
@@ -161,7 +152,7 @@
             // 
             // menuStrip2
             // 
-            this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.menuStrip2.BackColor = System.Drawing.Color.SteelBlue;
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.homeToolStripMenuItem,
@@ -173,9 +164,9 @@
             this.logoutToolStripMenuItem,
             this.toolStripMenuItem4,
             this.infoToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 24);
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(127, 439);
+            this.menuStrip2.Size = new System.Drawing.Size(127, 463);
             this.menuStrip2.TabIndex = 41;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -252,7 +243,6 @@
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblType);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lnkReset);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
@@ -260,7 +250,6 @@
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lnklblLogin);
             this.Controls.Add(this.lblUsername);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "login";
             this.Text = "login";
             this.menuStrip2.ResumeLayout(false);
@@ -279,7 +268,6 @@
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.LinkLabel lnklblLogin;
         private System.Windows.Forms.Label lblUsername;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label lblType;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.MenuStrip menuStrip2;

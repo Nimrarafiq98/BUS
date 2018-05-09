@@ -56,6 +56,7 @@
             this.Controls.Add(this.linkLabel1);
             this.Name = "Info";
             this.Text = "Info";
+            this.Load += new System.EventHandler(this.Info_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

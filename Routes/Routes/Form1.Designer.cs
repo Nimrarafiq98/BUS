@@ -71,7 +71,7 @@
             // 
             this.cmdRegister.BackColor = System.Drawing.Color.White;
             this.cmdRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdRegister.ForeColor = System.Drawing.Color.Maroon;
+            this.cmdRegister.ForeColor = System.Drawing.Color.Crimson;
             this.cmdRegister.Location = new System.Drawing.Point(393, 268);
             this.cmdRegister.Name = "cmdRegister";
             this.cmdRegister.Size = new System.Drawing.Size(112, 37);
@@ -84,7 +84,7 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.ForeColor = System.Drawing.Color.Navy;
+            this.lblPassword.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblPassword.Location = new System.Drawing.Point(189, 142);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(86, 20);
@@ -94,8 +94,9 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
+            this.lblUsername.BackColor = System.Drawing.Color.AliceBlue;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.Navy;
+            this.lblUsername.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblUsername.Location = new System.Drawing.Point(195, 62);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(91, 20);
@@ -106,7 +107,7 @@
             // 
             this.lblType.AutoSize = true;
             this.lblType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblType.ForeColor = System.Drawing.Color.Navy;
+            this.lblType.ForeColor = System.Drawing.Color.SteelBlue;
             this.lblType.Location = new System.Drawing.Point(195, 192);
             this.lblType.Name = "lblType";
             this.lblType.Size = new System.Drawing.Size(47, 20);
@@ -150,7 +151,7 @@
             // 
             // menuStrip2
             // 
-            this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.menuStrip2.BackColor = System.Drawing.Color.SteelBlue;
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.homeToolStripMenuItem,
@@ -235,7 +236,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(564, 460);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.comboBox1);
@@ -249,6 +250,7 @@
             this.Controls.Add(this.lblUsername);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
