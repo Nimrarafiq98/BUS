@@ -195,6 +195,43 @@ namespace WcfService1
             }
             return down;
         }
+
+         public int distance(string pickup,string dropdown)
+        {
+            foreach (Route R in search.searchr)
+            {
+               
+                int x1 =0 ;
+                int y1 =0;
+                int x2 =0;
+                int y2 =0;
+
+
+                foreach (Stops S in R.Mystops)
+                {
+                    if (S.StopName1 == pickup)
+                    {
+                        x1 = S.Longitude1;
+                        y1 = S.Latitude;
+                    }
+                }
+                foreach (Stops s in R.Mystops)
+                {
+                    if (s.StopName1 == dropdown)
+                    {
+                    
+                        x2 = s.Longitude1;
+                        y2 = s.Latitude;
+                    }
+                }
+                 int distance = (((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1))) ^ (1 / 2);
+                if (distance < 0)
+                {
+                    distance = distance * -1;
+                }
+
+                R.Distance = distance;
+                int speed = 45;
         
 
         public int distance(string pickup,string dropdown)

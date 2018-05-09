@@ -49,7 +49,21 @@ namespace WcfService1
         [OperationContract]
         bool searchpick(string pickup);
         [OperationContract]
+<<<<<<< HEAD
         bool searchdown(string dropdown,string pickup);
+=======
+        bool searchdown(string dropdown, string pickup);
+
+        [OperationContract]
+        List<Route> getsearch();
+        [OperationContract]
+        int distance(string pickup, string dropdown);
+
+        
+        
+        
+       
+>>>>>>> 841accd8ef935b126b24a1c2640db41e9307bd53
         
         [OperationContract]
         List<Route> getsearch();
