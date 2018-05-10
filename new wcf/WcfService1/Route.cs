@@ -37,7 +37,7 @@ namespace WcfService1
         [DataMember]
 
         public int Distance             // calculating distance
-        {
+        { // getters and setters of distance
             get { return distance; }
             set { distance = value; }
         }
@@ -45,8 +45,8 @@ namespace WcfService1
         [DataMember]
 
         public int Time
-        {
-            get { return time; }
+        {   // getters and setters of time
+            get { return time; }      
             set { time = value; }
         }
 
