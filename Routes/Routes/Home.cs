@@ -19,7 +19,7 @@ namespace Routes
 
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Home home = new Home();
+            Home home = new Home(); // home page
             this.Hide();
             home.Show();
         }
