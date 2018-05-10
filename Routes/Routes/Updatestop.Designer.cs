@@ -52,7 +52,7 @@
             this.txtnewstopname.Location = new System.Drawing.Point(182, 178);
             this.txtnewstopname.Multiline = true;
             this.txtnewstopname.Name = "txtnewstopname";
-            this.txtnewstopname.Size = new System.Drawing.Size(128, 32);
+            this.txtnewstopname.Size = new System.Drawing.Size(128, 36);
             this.txtnewstopname.TabIndex = 1;
             // 
             // label1
