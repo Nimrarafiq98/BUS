@@ -6,7 +6,7 @@ using System.Web;
 namespace WcfService1
 {
     public class myuser
-    {
+    { //my user class
         private string username;
 
         public string Username

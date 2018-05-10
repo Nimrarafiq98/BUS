@@ -10,12 +10,12 @@ namespace WcfService1
     { //myuser class with all of its attributes 
         private string username;
 
-        public string Username
+        public string Username   // func user name
         {
             get { return username; }
             set { username = value; }
         }
-        private string password;
+        private string password;   //func password
 
         public string Password
         {
@@ -24,7 +24,7 @@ namespace WcfService1
         }
         private string type;
 
-        public string Type
+        public string Type          //func type
         {
             get { return type; }
             set { type = value; }
