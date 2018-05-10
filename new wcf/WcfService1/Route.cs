@@ -13,12 +13,12 @@ namespace WcfService1
 
         private string BusNumber;
         [DataMember]
-        public string BusNumber1
+        public string BusNumber1     // to access busnumber
         {
             get { return BusNumber; }
             set { BusNumber = value; }
         }
-        private string RouteNumber;
+        private string RouteNumber;   //to access routenumber
         [DataMember]
         public string RouteNumber1
         {
@@ -26,7 +26,7 @@ namespace WcfService1
             set { RouteNumber = value; }
         }
 
-        private  List<Stops> mystops = new List<Stops>();
+        private  List<Stops> mystops = new List<Stops>();          //enlisting stops
         [DataMember]
         public  List<Stops> Mystops
         {
