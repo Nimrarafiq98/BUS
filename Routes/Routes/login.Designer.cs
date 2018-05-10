@@ -55,7 +55,7 @@
             this.lnkReset.AutoSize = true;
             this.lnkReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkReset.LinkColor = System.Drawing.Color.Crimson;
-            this.lnkReset.Location = new System.Drawing.Point(154, 335);
+            this.lnkReset.Location = new System.Drawing.Point(144, 335);
             this.lnkReset.Name = "lnkReset";
             this.lnkReset.Size = new System.Drawing.Size(57, 20);
             this.lnkReset.TabIndex = 33;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace WcfService1
 {
     public class myuser
-    {
+    { //myuser class with all of its attributes 
         private string username;
 
         public string Username
