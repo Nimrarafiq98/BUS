@@ -43,7 +43,7 @@ namespace Routes
             }
 
         }
-        // add
+        // add bus number and route number
         private void lnkAddStops_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Addstop Addstop = new Addstop();
