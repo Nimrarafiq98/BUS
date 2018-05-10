@@ -9,7 +9,7 @@ namespace WcfService1
 {
     [DataContract]
     public class Stops
-    {   // class of stops containing all of its attributes 
+    {
         private string StopName;
         [DataMember]
         public string StopName1

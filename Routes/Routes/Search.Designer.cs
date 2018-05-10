@@ -110,7 +110,6 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Here are the filtered routes which matches to your pickup and drop down loactions" +
     "";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Search
             // 

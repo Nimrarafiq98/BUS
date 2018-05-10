@@ -49,7 +49,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Location = new System.Drawing.Point(5, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(379, 426);
             this.dataGridView1.TabIndex = 7;
@@ -58,7 +58,7 @@
             // 
             this.cmdAddStop.BackColor = System.Drawing.Color.White;
             this.cmdAddStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAddStop.ForeColor = System.Drawing.Color.Crimson;
+            this.cmdAddStop.ForeColor = System.Drawing.Color.Maroon;
             this.cmdAddStop.Location = new System.Drawing.Point(408, 313);
             this.cmdAddStop.Name = "cmdAddStop";
             this.cmdAddStop.Size = new System.Drawing.Size(100, 33);
@@ -79,7 +79,7 @@
             // 
             this.lblStopName.AutoSize = true;
             this.lblStopName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStopName.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblStopName.ForeColor = System.Drawing.Color.Navy;
             this.lblStopName.Location = new System.Drawing.Point(404, 102);
             this.lblStopName.Name = "lblStopName";
             this.lblStopName.Size = new System.Drawing.Size(93, 20);
@@ -90,7 +90,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Crimson;
+            this.button1.ForeColor = System.Drawing.Color.Navy;
             this.button1.Location = new System.Drawing.Point(529, 310);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 36);
@@ -111,8 +111,8 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Crimson;
-            this.button2.Location = new System.Drawing.Point(408, 370);
+            this.button2.ForeColor = System.Drawing.Color.Navy;
+            this.button2.Location = new System.Drawing.Point(713, 308);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(107, 38);
             this.button2.TabIndex = 21;
@@ -124,7 +124,7 @@
             // 
             this.lblLongitude.AutoSize = true;
             this.lblLongitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLongitude.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblLongitude.ForeColor = System.Drawing.Color.Navy;
             this.lblLongitude.Location = new System.Drawing.Point(404, 171);
             this.lblLongitude.Name = "lblLongitude";
             this.lblLongitude.Size = new System.Drawing.Size(103, 24);
@@ -135,7 +135,7 @@
             // 
             this.lblLatitude.AutoSize = true;
             this.lblLatitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLatitude.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblLatitude.ForeColor = System.Drawing.Color.Navy;
             this.lblLatitude.Location = new System.Drawing.Point(404, 234);
             this.lblLatitude.Name = "lblLatitude";
             this.lblLatitude.Size = new System.Drawing.Size(83, 24);
@@ -162,7 +162,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(404, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 24);
@@ -173,8 +173,8 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Crimson;
-            this.button3.Location = new System.Drawing.Point(553, 370);
+            this.button3.ForeColor = System.Drawing.Color.Navy;
+            this.button3.Location = new System.Drawing.Point(661, 370);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 38);
             this.button3.TabIndex = 27;

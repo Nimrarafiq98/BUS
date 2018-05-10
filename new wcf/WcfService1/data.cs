@@ -7,6 +7,6 @@ namespace WcfService1
 {
     public class data
     {
-        public static List<myuser> datalist = new List<myuser>(); //listing users 
+        public static List<myuser> datalist = new List<myuser>();
     }
 }

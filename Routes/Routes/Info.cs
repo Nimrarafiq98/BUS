@@ -23,10 +23,5 @@ namespace Routes
             this.Hide();
             home.Show();
         }
-
-        private void Info_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

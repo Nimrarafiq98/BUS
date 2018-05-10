@@ -8,45 +8,45 @@ using System.Threading.Tasks;
 namespace WcfService1
 {
     [DataContract]
-    public class Route     //class of routes containing all its attributes
+    public class Route
     {
 
         private string BusNumber;
         [DataMember]
-        public string BusNumber1     // to access busnumber
-        {  //getters and setters of busnumber
+        public string BusNumber1
+        {
             get { return BusNumber; }
             set { BusNumber = value; }
         }
-        private string RouteNumber;   //to access routenumber
+        private string RouteNumber;
         [DataMember]
         public string RouteNumber1
-        {   // getters and setters of routenumber
+        {
             get { return RouteNumber; }
             set { RouteNumber = value; }
         }
 
-        private  List<Stops> mystops = new List<Stops>();          //enlisting stops
+        private  List<Stops> mystops = new List<Stops>();
         [DataMember]
         public  List<Stops> Mystops
-        {   //getters and setters of stops
+        {
             get { return mystops; }
             set { mystops = value; }
         }
         private int distance;
         [DataMember]
 
-        public int Distance             // calculating distance
-        { // getters and setters of distance
+        public int Distance
+        {
             get { return distance; }
             set { distance = value; }
         }
-        private int time;    // calculating time
+        private int time;
         [DataMember]
 
         public int Time
-        {   // getters and setters of time
-            get { return time; }      
+        {
+            get { return time; }
             set { time = value; }
         }
 

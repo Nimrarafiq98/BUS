@@ -9,12 +9,11 @@ using System.Text;
 namespace WcfService1
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
-    //service contract
     [ServiceContract]
     public interface IService1
     {
         [OperationContract]
-        bool isvalid(string username, string password,string Type); 
+        bool isvalid(string username, string password,string Type);
         [OperationContract]
 
         bool registration(string username, string password,string type);

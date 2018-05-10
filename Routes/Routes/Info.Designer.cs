@@ -39,7 +39,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.ForeColor = System.Drawing.Color.Black;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(12, 9);
+            this.linkLabel1.Location = new System.Drawing.Point(12, 18);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(62, 24);
             this.linkLabel1.TabIndex = 0;
@@ -56,7 +56,6 @@
             this.Controls.Add(this.linkLabel1);
             this.Name = "Info";
             this.Text = "Info";
-            this.Load += new System.EventHandler(this.Info_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

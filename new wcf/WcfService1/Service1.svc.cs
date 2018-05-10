@@ -225,7 +225,7 @@ namespace WcfService1
                         y2 = s.Latitude;
                     }
                 }
-                int distance = (((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1))) ^ (1 / 2);  //distance formula to cal distance
+                int distance = (((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1))) ^ (1 / 2);
                 if (distance < 0)
                 {
                     distance = distance * -1;

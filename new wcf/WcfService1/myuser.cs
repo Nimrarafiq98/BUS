@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace WcfService1
 {
     public class myuser
-    { //myuser class with all of its attributes 
+    {
         private string username;
 
-        public string Username   // func user name
+        public string Username
         {
             get { return username; }
             set { username = value; }
         }
-        private string password;   //func password
+        private string password;
 
         public string Password
         {
@@ -24,13 +24,13 @@ namespace WcfService1
         }
         private string type;
 
-        public string Type          //func type
+        public string Type
         {
             get { return type; }
             set { type = value; }
         }
 
-        private string ConfirmPassword; //confirm password
+        private string ConfirmPassword;
 
         public string ConfirmPassword1
         {

@@ -43,7 +43,7 @@
             // 
             this.cmdAddnum.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cmdAddnum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAddnum.ForeColor = System.Drawing.Color.Crimson;
+            this.cmdAddnum.ForeColor = System.Drawing.Color.Maroon;
             this.cmdAddnum.Location = new System.Drawing.Point(392, 38);
             this.cmdAddnum.Name = "cmdAddnum";
             this.cmdAddnum.Size = new System.Drawing.Size(104, 38);
@@ -64,7 +64,7 @@
             // 
             this.lblRouteNumber.AutoSize = true;
             this.lblRouteNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRouteNumber.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblRouteNumber.ForeColor = System.Drawing.Color.Navy;
             this.lblRouteNumber.Location = new System.Drawing.Point(49, 95);
             this.lblRouteNumber.Name = "lblRouteNumber";
             this.lblRouteNumber.Size = new System.Drawing.Size(120, 20);
@@ -75,7 +75,7 @@
             // 
             this.lblBusNumber.AutoSize = true;
             this.lblBusNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBusNumber.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lblBusNumber.ForeColor = System.Drawing.Color.Navy;
             this.lblBusNumber.Location = new System.Drawing.Point(67, 42);
             this.lblBusNumber.Name = "lblBusNumber";
             this.lblBusNumber.Size = new System.Drawing.Size(102, 20);
@@ -87,7 +87,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.lnkstop});
-            this.dataGridView1.Location = new System.Drawing.Point(86, 176);
+            this.dataGridView1.Location = new System.Drawing.Point(86, 177);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(468, 255);
             this.dataGridView1.TabIndex = 17;
@@ -104,8 +104,8 @@
             // 
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Crimson;
-            this.button1.Location = new System.Drawing.Point(392, 97);
+            this.button1.ForeColor = System.Drawing.Color.Navy;
+            this.button1.Location = new System.Drawing.Point(392, 107);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 36);
             this.button1.TabIndex = 18;

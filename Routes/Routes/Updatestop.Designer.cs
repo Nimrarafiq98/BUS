@@ -52,7 +52,7 @@
             this.txtnewstopname.Location = new System.Drawing.Point(182, 178);
             this.txtnewstopname.Multiline = true;
             this.txtnewstopname.Name = "txtnewstopname";
-            this.txtnewstopname.Size = new System.Drawing.Size(128, 36);
+            this.txtnewstopname.Size = new System.Drawing.Size(128, 32);
             this.txtnewstopname.TabIndex = 1;
             // 
             // label1
@@ -81,7 +81,7 @@
             // 
             this.cmdChange.BackColor = System.Drawing.Color.White;
             this.cmdChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdChange.ForeColor = System.Drawing.Color.Crimson;
+            this.cmdChange.ForeColor = System.Drawing.Color.Navy;
             this.cmdChange.Location = new System.Drawing.Point(199, 255);
             this.cmdChange.Name = "cmdChange";
             this.cmdChange.Size = new System.Drawing.Size(111, 35);
@@ -93,7 +93,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(357, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(346, 38);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(325, 232);
             this.dataGridView1.TabIndex = 5;

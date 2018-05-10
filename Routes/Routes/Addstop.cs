@@ -38,7 +38,7 @@ namespace Routes
 
             }
           
-        }// add stop name, longitude and latitude for specific object
+        }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
