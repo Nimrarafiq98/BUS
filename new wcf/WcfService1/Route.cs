@@ -41,7 +41,7 @@ namespace WcfService1
             get { return distance; }
             set { distance = value; }
         }
-        private int time;
+        private int time;    // calculating time
         [DataMember]
 
         public int Time
