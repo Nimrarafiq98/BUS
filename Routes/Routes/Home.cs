@@ -27,7 +27,7 @@ namespace Routes
         private void signUpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1 reg = new Form1();
-            this.Hide();
+            this.Hide();// reg pages
             reg.Show();
         }
 
