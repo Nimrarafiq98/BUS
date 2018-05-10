@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 namespace WcfService1
 {
     [DataContract]
-    public class Route     //class of routes containing all the attributes
+    public class Route     //class of routes containing all its attributes
     {
 
         private string BusNumber;
         [DataMember]
         public string BusNumber1     // to access busnumber
-        {
+        {  //getters and setters of busnumber
             get { return BusNumber; }
             set { BusNumber = value; }
         }
