@@ -36,7 +36,7 @@ namespace WcfService1
         private int distance;
         [DataMember]
 
-        public int Distance
+        public int Distance             // calculating distance
         {
             get { return distance; }
             set { distance = value; }
