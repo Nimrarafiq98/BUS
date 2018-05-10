@@ -21,7 +21,7 @@ namespace WcfService1
         private string RouteNumber;   //to access routenumber
         [DataMember]
         public string RouteNumber1
-        {
+        {   // getters and setters of routenumber
             get { return RouteNumber; }
             set { RouteNumber = value; }
         }
@@ -29,7 +29,7 @@ namespace WcfService1
         private  List<Stops> mystops = new List<Stops>();          //enlisting stops
         [DataMember]
         public  List<Stops> Mystops
-        {
+        {   //getters and setters of stops
             get { return mystops; }
             set { mystops = value; }
         }
