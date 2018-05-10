@@ -23,7 +23,7 @@ namespace Routes
             bool isvalid;
             bool isvalidPassed;
             server.isvalid(txtUsername.Text, txtPassword.Text,comboBox1.Text, out isvalid, out isvalidPassed);
-            if (isvalid)
+            if (isvalid)// to check validity
             { MessageBox.Show(" valid");
 
                     Addnum add = new Addnum();
