@@ -32,7 +32,7 @@ namespace Routes
                 
                 if (comboBox1.Text== "user")
                 {
-                    Search search = new Search();
+                    Search search = new Search(); // for saerching
                     this.Hide();
                     search.Show();
                     MessageBox.Show("valid");
