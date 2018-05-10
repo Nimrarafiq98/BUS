@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WcfService1
 {
     [DataContract]
-    public class Route
+    public class Route     //class of routes containing all the attributes
     {
 
         private string BusNumber;

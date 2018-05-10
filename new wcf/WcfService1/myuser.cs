@@ -30,7 +30,7 @@ namespace WcfService1
             set { type = value; }
         }
 
-        private string ConfirmPassword;
+        private string ConfirmPassword; //confirm password
 
         public string ConfirmPassword1
         {
