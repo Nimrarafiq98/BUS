@@ -109,3 +109,6 @@ C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Newnum.resourc
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Search.resources
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Update.resources
 C:\Users\MALIK SHAHBAZ\Desktop\BUS\Routes\Routes\obj\Debug\Routes.Updatestop.resources
+C:\Users\de\Desktop\BUS\Routes\Routes\bin\Debug\Routes.exe.config
+C:\Users\de\Desktop\BUS\Routes\Routes\obj\Debug\Routes.exe
+C:\Users\de\Desktop\BUS\Routes\Routes\obj\Debug\Routes.pdb
